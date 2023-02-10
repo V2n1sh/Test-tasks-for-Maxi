@@ -1,0 +1,16 @@
+* {
+  font-family: 'Alegreya Sans';
+}
+
+body {
+  background-image: url(../src/image/background.png);
+}
+
+.cards {
+  display: flex;
+}
+
+.all-cards {
+  display: flex;
+  margin: 3%;
+}

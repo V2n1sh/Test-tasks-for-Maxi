@@ -1,0 +1,69 @@
+.card {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    margin: 0;
+    width: 23%;
+    background-color: white;
+    border-radius: 4.3%;
+    box-shadow: 0px 256px 102px rgba(0, 0, 0, 0.01), 
+                0px 144px 86px rgba(0, 0, 0, 0.05), 
+                0px 64px 64px rgba(0, 0, 0, 0.09), 
+                0px 16px 35px rgba(0, 0, 0, 0.1), 
+                0px 0px 0px rgba(0, 0, 0, 0.1);
+    margin-right: 3%;
+    transition: all 0.4s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.el1-position, .el2-position, .el3-position, .el4-position {
+   position: absolute;
+    width: 16%;
+}
+
+
+.el1-position {
+    z-index: 2;
+    left: 0;
+    top: 0;
+    transform: rotate(-180deg);
+}
+
+.el2-position {
+    z-index:1;
+    left: 15%;
+    top: 0;
+}
+
+.el3-position {
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.el4-position {
+    z-index: 2;
+    right: 10%;
+    bottom: 0;
+    transform: rotate(180deg);
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    width: 68%;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+.user-info {
+    margin: 5% auto;
+    height: 2%;
+}

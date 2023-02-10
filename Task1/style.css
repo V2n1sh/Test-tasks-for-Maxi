@@ -13,14 +13,14 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-left: 15%;
     margin-right: 15%;
     gap: 20%;
 }
 
-.form-background {
+.login-form {
     position: relative;
     vertical-align: top;
     display: inline-block;
@@ -73,7 +73,7 @@ body {
     font-size: 16px;
 }
 
-.button-a {
+.button {
     width: 36%;
     background-color: transparent;
     border-radius: 20px; 
@@ -88,7 +88,7 @@ body {
     padding: 4%;
 }
 
-.container-button-a {
+.container-button {
     width: 36%; 
     margin-top: 12%;
     display: flex;
@@ -103,7 +103,7 @@ body {
     border-radius: 20px;
 }
 
-.button-a-text {
+.button-text {
     text-decoration: none;
     color: white;
     font-weight: 700;
@@ -161,12 +161,12 @@ input {
     transition: all 100ms ease-out;
 }
 
-.container-button-a:hover {
+.container-button:hover {
     background-color: white;
     border: 3px solid #74A9FF;
 }
 
-.container-button-a:hover .button-a-text {
+.container-button:hover .button-text {
     color: black !important;
 }
 
@@ -175,7 +175,7 @@ input {
         flex-direction: column;
     }
 
-    .form-background {
+    .login-form {
         width: 70%;
     }
 }
@@ -186,7 +186,7 @@ input {
         margin-right: 5%;
     }
 
-    .form-background {
+    .login-form {
         width: 85%;
     }
 }
