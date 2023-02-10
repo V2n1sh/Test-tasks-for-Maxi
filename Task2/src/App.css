@@ -6,11 +6,17 @@ body {
   background-image: url(../src/image/background.png);
 }
 
-.cards {
-  display: flex;
-}
+
 
 .all-cards {
   display: flex;
   margin: 3%;
+}
+
+@media screen and (max-width: 1200px) {
+  .all-cards {
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+  }
 }

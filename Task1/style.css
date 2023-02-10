@@ -176,6 +176,16 @@ input {
     }
 
     .login-form {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .login-form {
         width: 70%;
     }
 }

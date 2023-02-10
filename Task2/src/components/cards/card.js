@@ -20,7 +20,7 @@ function Card({picture, gender, name, date, city, country}) {
             <img src={el2} className="el2-position" alt=""/>
 
         <div className="user">
-            <img className="user-info" src={picture} alt=""/>
+            <img className="user-photo" src={picture} alt=""/>
             <div className="user-info">
                 Пол:{gender}
             </div>
